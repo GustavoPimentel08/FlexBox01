@@ -33,17 +33,22 @@ h1 {
 
 .cor1 {
     background-color: #ED145B;
+    order: 1;
 }
 
 .cor2 {
     background-color: #63B1BC;
-    align-self: center;
+    align-self: flex-end;
+    order: 3;
 }
 
 .cor3 {
     background-color: #EFB661;
-    align-self: flex-end;
+    align-self: center;
     justify-content: flex-end;
+    order: 2;
+    
+    
 }
 
 .instrucoes {
